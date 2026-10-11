@@ -12,9 +12,13 @@ export const Header: React.FC = () => {
         {/* Logo and Project Name */}
         <div className="flex items-center gap-space-lg flex-shrink-0">
           <div className="flex items-center gap-space-sm cursor-pointer">
-            <span className="material-symbols-outlined text-white text-[28px]">
-              precision_manufacturing
-            </span>
+            <div className="w-9 h-9 rounded-full bg-white flex items-center justify-center p-1 shadow-sm shrink-0">
+              <img
+                src="/cel-logo.png"
+                alt="Central Electronics Limited (CEL) Logo"
+                className="w-full h-full object-contain"
+              />
+            </div>
             <span className="font-headline text-headline-sm text-on-primary tracking-tight whitespace-nowrap font-bold text-lg md:text-xl">
               Project Monitoring System
             </span>
